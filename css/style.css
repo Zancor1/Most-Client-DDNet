@@ -70,3 +70,31 @@ html, body {
   color: #d8b4fe;
   background: #4c1d75;
 }
+
+/* Static download cards stay in normal flow at every screen size. */
+#download.download-section {
+  height: auto;
+  min-height: 230px;
+  align-items: flex-start;
+  padding-bottom: 40px;
+}
+#download .card {
+  position: relative;
+  max-height: none;
+  opacity: 1;
+  z-index: auto;
+}
+#download .card.other {
+  display: none;
+}
+#download.show-all .card.other {
+  display: block;
+}
+#download button:disabled {
+  cursor: not-allowed;
+  opacity: .5;
+}
+.display-all:focus-visible {
+  outline: 2px solid #a855f7;
+  outline-offset: 5px;
+}

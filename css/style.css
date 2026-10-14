@@ -1,0 +1,72 @@
+#head a {
+  border-radius: 0.575rem;
+}
+
+#head {
+  margin-right: 5px;
+}
+
+#payments-btn {
+  margin-top: 10px;
+}
+
+#features {
+  margin-top: 50px;
+}
+
+* {
+  font-family: 'Montserrat';
+}
+
+.active {
+  color: white;
+  background: #32373b;
+  border-radius: 6px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+html, body {
+  background: linear-gradient(to bottom, #21182e, #1c1527, #181321, #140f1c, #0f0b15);
+}
+
+
+.version-info {
+  color: #959595;
+  font-weight: 100;
+  position: absolute;
+  width: 100%;
+}
+.version-info b {
+  font-weight: 500;
+}
+
+@media (max-width: 769px) {
+  .version-info {
+    text-align: center;
+    margin-top: 1.6rem;
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .version-info {
+    margin-top: 4rem;
+    text-align: center;
+    margin-right: auto;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1000px) {
+  .version-info {
+    margin-top: 1.7rem;
+    margin-left: 4rem;
+    width: 50%;
+    font-size: 15px;
+  }
+}
+::selection {
+  color: #d8b4fe;
+  background: #4c1d75;
+}

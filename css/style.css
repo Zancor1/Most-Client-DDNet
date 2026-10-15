@@ -98,3 +98,14 @@ html, body {
   outline: 2px solid #a855f7;
   outline-offset: 5px;
 }
+
+.download-count {
+  margin: 18px 0 0;
+  color: #c9b5dc;
+  font-size: 13px;
+}
+.download-count strong {
+  color: #d8b4fe;
+  font-size: 24px;
+  font-variant-numeric: tabular-nums;
+}
